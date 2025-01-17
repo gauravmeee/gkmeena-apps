@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Use React Router for navigation
 
 const Navbar = () => {
   return (
@@ -11,10 +10,10 @@ const Navbar = () => {
     </div>
       <ul class="flex gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
         <li class="flex items-center p-1 text-sm gap-x-2 text-slate-200">
-          <Link to="/" clLinkss="flex items-center">My Apps</Link>
+          <a href="/" class="flex items-center">My Apps</a>
         </li>
         <li class="flex items-center p-1 text-sm gap-x-2 text-slate-200">
-          <Link to="/others-apps" class="flex items-center">Others Apps</Link>
+          <a href="/others-apps" class="flex items-center">Others Apps</a>
         </li>
       </ul>
 
