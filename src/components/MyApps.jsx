@@ -12,6 +12,7 @@ const myAppsList = [
     { link: "https://dtcpass-delhi-gov-in.vercel.app/", title: "My DTC Pass" },
     { link: "https://proximity-words.netlify.app/", title: "Words Proximity" },
     { link: "https://my-docs-ocr.netlify.app/", title: "Text OCR (JS Tesseract)" },
+
   ];
 
   const othersAppsList = [
@@ -22,7 +23,11 @@ const myAppsList = [
     { link: "https://onecompiler.com/cpp/42vk8ugq2", title: "One Compiler" },
     { link: "https://siaexplains.github.io/visa-sponsorship-companies/", title: "Visa Sponsership job" },
     { link: "https://kaunsa-mooc-le.streamlit.app/", title: "Kaunsa Mooc" },
-    
+    { linl: "https://saurabhdaware.github.io/text-to-handwriting/", title: "Text to Handwriting"},
+    { linl: "https://codewitharyan.com/cwa-sheet/aryan-dsa-master-sheet", title: "Code With Aryan- DSA "},
+    { linl: "https://projectlearn.io/", title: "ProjectLearn Projects"},
+    { linl: "https://quickref.me/index.html", title: "QuickRef Projects"},
+    { linl: "https://www.enggroom.com/", title: "Enggroom Projects"}
   ];
 
 const appsList = location.pathname === "/others-apps" ? othersAppsList : myAppsList ;
